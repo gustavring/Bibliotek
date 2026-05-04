@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "image": "https://covers.openlibrary.org/b/id/8101356-L.jpg",
+      "borrowed": false
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "borrowed": true
+    },
+    {
+      "id": 3,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "year": 1937,
+      "image": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+      "borrowed": false
+    },
+    {
+      "id": 4,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "year": 1984,
+      "image": "https://covers.openlibrary.org/b/id/12819558-L.jpg",
+      "borrowed": false
+    },
+    {
+      "id": 5,
+      "title": "The Left Hand of Darkness",
+      "author": "Ursula K. Le Guin",
+      "year": 1969,
+      "image": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+      "borrowed": true
+    }
+  ]
+}
