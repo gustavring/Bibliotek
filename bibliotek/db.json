@@ -39,6 +39,46 @@
       "year": 1969,
       "image": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
       "borrowed": true
-    }
+    },
+    {
+    "id": 6,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "image": "https://covers.openlibrary.org/b/id/8773276-L.jpg",
+    "borrowed": false
+  },
+  {
+    "id": 7,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "image": "https://covers.openlibrary.org/b/id/9259250-L.jpg",
+    "borrowed": false
+  },
+  {
+    "id": 8,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "year": 1951,
+    "image": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+    "borrowed": true
+  },
+  {
+    "id": 9,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "image": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
+    "borrowed": false
+  },
+  {
+    "id": 10,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "image": "https://covers.openlibrary.org/b/id/7222161-L.jpg",
+    "borrowed": false
+  }
   ]
 }

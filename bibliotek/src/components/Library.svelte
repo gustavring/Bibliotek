@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import Book from './Book.svelte';
 
   let books = []; /* sparar böcker från db */
 
@@ -10,14 +11,23 @@
   });
 </script>
 
-<h2>Här kommer biblioteket</h2>
+<h2>Böcker vi har:</h2>
 
 <!-- loopar igenom alla böcker i arrayen -->
-{#each books as book}
-  <div>
-    <img src={book.image} alt={book.title} width="150" />
-    <h3>{book.title}</h3>
-    <p>{book.author}</p>
-    <p>{book.year}</p>
-  </div>
-{/each}
+<div class="library">
+    {#each books as book}
+        <Book book={book} />
+    {/each}
+</div>
+
+<style>
+    .library {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+</style>
